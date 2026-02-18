@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I Love You… Tube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 11:11 Clock -->
+    <div class="clock" id="clock">11:11</div>
+
+    <!-- Background Music -->
+    <audio id="bgMusic" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="overlay">
+
+        <h1 class="title">I Love You… Tube</h1>
+
+        <div class="chapter-container">
+            <h2 id="chapterTitle">Chapter 1</h2>
+            <p id="storyText"></p>
+        </div>
+
+        <div class="buttons">
+            <button onclick="prevChapter()">Previous</button>
+            <button onclick="nextChapter()">Next</button>
+            <button onclick="playMusic()">Play Music</button>
+        </div>
+
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
